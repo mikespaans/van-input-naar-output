@@ -1,0 +1,19 @@
+# Mike Spaans
+# opdracht Pizza Calculator
+PrijsSmallPizza = 4
+PrijsMediumPizza = 7.50
+PrijsLargePizza = 11.50
+
+SmallPizza = int(input("Hoeveel small pizza's wilt u? "))
+MediumPizza = int(input("Hoeveel medium pizza's wilt u? "))
+LargePizza = int(input("Hoeveel large pizza's wilt u? "))
+
+print (SmallPizza , "Small pizza's : " , SmallPizza * PrijsSmallPizza , "euro" )
+print (MediumPizza , "Medium pizza's : " , MediumPizza * PrijsMediumPizza , "euro")
+print (LargePizza , "Large pizza's : " , LargePizza * PrijsLargePizza , "euro")
+
+TotaalSmallPizza = SmallPizza * PrijsSmallPizza
+TotaalMediumPizza = MediumPizza * PrijsMediumPizza
+TotaalLargePizza = LargePizza * PrijsLargePizza
+
+print ("Totaal : " , TotaalSmallPizza + TotaalMediumPizza + TotaalLargePizza , "euro")
